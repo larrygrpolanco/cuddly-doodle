@@ -7,7 +7,7 @@ import Sidebar from '../component/Sidebar';
 export default function Page() {
   return (
     <div className='flex min-h-screen'>
-      <div className='bg-base-300/50 rounded-lg'>
+      <div>
         {/* Sidebar */}
         <Sidebar />
       </div>
