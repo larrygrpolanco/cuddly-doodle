@@ -13,10 +13,16 @@
 // Input field and send button are fixed at the bottom to remain accessible as the user scrolls through the chat history.
 // Consider visual indicators for typing or processing responses to enhance interactivity.
 
+import ChatArea from './ChatArea';
+import ChatInput from './ChatInput';
+import SendButton from './SendButton';
 
 export default function ChatInterface() {
   return (
-    <div>ChatInterface</div>
-  )
+    <div>
+      <ChatArea />
+      <ChatInput />
+      <SendButton />
+    </div>
+  );
 }
-

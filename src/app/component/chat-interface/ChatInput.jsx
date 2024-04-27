@@ -4,8 +4,14 @@ import React from 'react'
 
 const ChatInput = () => {
   return (
-    <div>ChatInput</div>
-  )
+    <div>
+      <input
+        type='text'
+        placeholder='Type here'
+        class='input input-bordered w-full max-w-xs'
+      />
+    </div>
+  );
 }
 
 export default ChatInput
