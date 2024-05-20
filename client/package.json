@@ -1,0 +1,26 @@
+{
+  "name": "jordantwells-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^6.5.1",
+    "jqeury": "^0.0.1-security",
+    "next": "^14.2.3",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-scroll": "^1.8.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
+  }
+}
